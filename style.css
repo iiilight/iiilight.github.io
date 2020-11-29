@@ -14,3 +14,30 @@
     display: inline;
     margin-right: 10%;
 }
+
+.myName{
+    text-align: center;
+    vertical-align: middle;
+
+    background: url("../iiilight.github.io/forest.jpg");
+    background-size: 100%;
+    height: 150px;
+    margin: 10px auto 0 auto;
+}
+.name{
+    position: relative;
+    top: 45%;
+    color: antiquewhite;
+}
+.projects{
+    width: 100%;
+    height: 100%;
+
+}
+.projectsName{
+    margin-left: 25%;
+    display: inline-block;
+}
+.projectImag{
+    
+}
