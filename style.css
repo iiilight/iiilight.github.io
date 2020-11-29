@@ -36,9 +36,12 @@
 }
 .projectsName{
     margin-left: 25%;
-    display: inline-block;
+
 }
-.projectImg{
-    width: 50%;
-    height: 50%;
+.projectsImg{
+    float: left;
+    display: inline-block;
+    height: 300px;
+    margin: auto;
+    width: 30%;
 }
