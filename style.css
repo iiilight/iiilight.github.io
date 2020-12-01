@@ -3,45 +3,123 @@
 	color: white;
 	text-shadow: 1px 1px 1px black;
 	height: 45px;
-	background-color:lavender;
+	background-color:rgb(82, 77, 77);
 }
 
+body{
+    margin: 0;
+    padding: 0%;
+    background-color:rgb(214, 228, 236);
+}
 .head{
     position: relative;
     left: 10px;
+    color: rgb(240, 249, 255);
 }
+nav{
+    margin: 0%;
+    padding:0;
+}
+
+.mainPage{
+    display: inline;
+    text-decoration: none;
+    margin-right: 10%;
+    color: white;
+}
+
+
 .menu{
     display: inline;
+    text-decoration: none;
     margin-right: 10%;
+}
+
+.web{
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+.mainWeb{
+    text-decoration: none;
+    color: white;
 }
 
 .myName{
     text-align: center;
     vertical-align: middle;
-
-    background: url("../iiilight.github.io/images/forest.jpg");
+    background: url("images/NameBackGround.jpg");
     background-size: 100%;
     height: 150px;
-    margin: 10px auto 0 auto;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    font-family: Georgia, serif;
 }
 .name{
     position: relative;
     top: 45%;
-    color: antiquewhite;
+    color: rgb(82, 82, 82);
 }
 .projects{
-    width: 100%;
-    height: 100%;
+    margin:0;
+    padding: 0%;
 
 }
-.projectsName{
-    margin-left: 25%;
+.projectBackground{
+
+    background-color: #00FF00;
 
 }
-.projectsImg{
+
+.projectsColumnL{
     float: left;
-    display: inline-block;
-    height: 300px;
-    margin: auto;
-    width: 30%;
+    width: 50%;
+}
+
+.projectsColumnR{
+    float: right;
+    width: 50%;
+}
+
+.projectLink{
+    text-decoration: none;
+    color: black;
+}
+ 
+.projectsName{
+    text-align: center;
+    margin-top: 20%;
+    
+}
+
+.projectsImg{
+    height: 80%;
+    margin: 10%;
+    width: 80%;
+}
+
+
+/* Skills */
+
+.skills{
+    
+    margin-top: 30%;
+}
+
+.skillsHeader{
+
+    margin-left: 35%;
+}
+
+.skillName{
+    text-align: center;
+    display: inline;
+    margin-left: 20%;
+}
+
+
+
+/*  contact information  */
+.contactInfo{
+    text-align: center;
 }

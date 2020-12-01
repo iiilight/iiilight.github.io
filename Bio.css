@@ -1,0 +1,99 @@
+.head-bar {
+	/*text-align: center;*/
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	height: 45px;
+    background-color:rgb(82, 77, 77);
+    margin: 0%;
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+    background-color:rgb(214, 228, 236);
+}
+.head{
+    position: relative;
+    left: 10px;
+    color: rgb(240, 249, 255);
+}
+.menu{
+    display: inline;
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+.web{
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+.mainWeb{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Bio Introduction*/
+
+
+.bio{
+    font-size: 0;
+}
+
+.bioColumnL{
+    background-image: url("images/BioBack.jpg");
+    background-size: 100%;
+    
+    font-size: medium;
+    float: left;
+    height: 100%;
+    width: 30%;
+    margin-bottom: 10%;
+
+}
+
+.bioColumnR{
+    background-image: url("images/bioContentBackground.jpg");
+    background-size: 100%;
+
+    font-size: medium;
+    float: right;
+    max-height: 500px;
+    width: 70%;
+}
+
+
+.bioLink{
+    text-decoration: none;
+    color: black;
+}
+ 
+.bioContent{
+    margin-top: 0;
+    word-wrap:break-word;
+word-break:normal;
+}
+
+
+.bioPic{
+    position: relative;
+    vertical-align: 30%;
+    top: 160px;
+    left: 33%;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    size: 20%;
+}
+
+.bioName{
+    position: relative;
+    top: 160px;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+    height: 0px;
+}
+
