@@ -36,9 +36,13 @@ nav{
     text-decoration: none;
     margin-right: 10%;
 }
-
+.web:hover{
+    font-weight: bolder;
+    color: white;
+}
 .web{
     text-decoration: none;
+    font-weight: lighter;
     color: rgb(228, 228, 228);
 }
 .mainWeb{
