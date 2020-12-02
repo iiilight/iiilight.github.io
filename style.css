@@ -99,27 +99,30 @@ nav{
 }
 
 
-/* Skills */
-
-.skills{
-    
+/* Trip map */
+.trip{
+    position: relative;
     margin-top: 30%;
 }
 
-.skillsHeader{
-
-    margin-left: 35%;
-}
-
-.skillName{
+.tripName{
     text-align: center;
-    display: inline;
-    margin-left: 20%;
+    
 }
-
-
+.tripImg{
+    position: relative;
+    left: 10%;
+    height: 80% ;
+    width: 80%;
+}
 
 /*  contact information  */
 .contactInfo{
     text-align: center;
+}
+
+/*clear float format misconduct*/
+.clear{
+    clear: both;
+    height: 0px;
 }
